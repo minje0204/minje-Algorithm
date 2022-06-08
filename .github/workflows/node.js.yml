@@ -1,7 +1,7 @@
 name: git push into another repo to use backjoonHub
 on:
   push:
-    branches: [master]
+    branches: [main]
 jobs:
   build:
     runs-on: ubuntu-latest
